@@ -1,0 +1,36 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:example:building:floor;1",
+    "@type": "Interface",
+    "displayName": "Floor",
+    "contents": [
+        {
+            "@type": "Property",
+            "name": "FloorNumber",
+            "schema": "integer",
+            "description": "Floor number",
+            "writable": true
+        },
+        {
+            "@type": "Relationship",
+            "@id": "dtmi:example:building:floor:rel_has_meetingrooms;1",
+            "name": "rel_has_meetingrooms",
+            "displayName": "Has meeting rooms",
+            "target": "dtmi:example:building:floor:meetingroom;1"
+        },
+        {
+            "@type": "Relationship",
+            "@id": "dtmi:example:building:floor:rel_has_desks;1",
+            "name": "rel_has_desks",
+            "displayName": "Has desks",
+            "target": "dtmi:example:building:floor:desk;1"
+        },
+        {
+            "@type": "Relationship",
+            "@id": "dtmi:example:building:floor:rel_has_washrooms;1",
+            "name": "rel_has_washrooms",
+            "displayName": "Has washrooms",
+            "target": "dtmi:example:building:floor:washroom;1"
+        }
+    ]
+}
