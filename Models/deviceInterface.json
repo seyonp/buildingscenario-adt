@@ -1,0 +1,29 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:example:device;1",
+    "@type": "Interface",
+    "displayName": "Device",
+    "contents": [
+        {
+            "@type": "Property",
+            "name": "deviceid",
+            "schema": "string",
+            "description": "Device ID",
+            "writable": true
+        },
+        {
+            "@type": "Property",
+            "name": "temperature",
+            "schema": "double",
+            "description": "Current measured temperature",
+            "writable": true
+        },
+        {
+            "@type": "Property",
+            "name": "humidity",
+            "schema": "double",
+            "description": "Current measured humidity",
+            "writable": true
+        }
+    ]
+}

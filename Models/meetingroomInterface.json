@@ -1,0 +1,29 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:example:building:floor:meetingroom;1",
+    "@type": "Interface",
+    "displayName": "MeetingRoom",
+    "contents": [
+        {
+            "@type": "Property",
+            "name": "id",
+            "schema": "string",
+            "description": "Meeting room ID",
+            "writable": true
+        },
+        {
+            "@type": "Property",
+            "name": "MeetingRoomNumber",
+            "schema": "string",
+            "description": "Meeting room number",
+            "writable": true
+        },
+        {
+            "@type": "Relationship",
+            "@id": "dtmi:example:building:floor:meetingroom:rel_has_devices;1",
+            "name": "rel_has_devices",
+            "displayName": "Has devices",
+            "target": "dtmi:example:device;1"
+        }
+    ]
+}

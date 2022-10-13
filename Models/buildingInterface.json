@@ -1,0 +1,22 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:example:building;1",
+    "@type": "Interface",
+    "displayName": "Building",
+    "contents": [
+        {
+            "@type": "Property",
+            "name": "id",
+            "schema": "string",
+            "description": "Building ID",
+            "writable": true
+        },
+        {
+            "@type": "Relationship",
+            "@id": "dtmi:example:building:rel_has_floors;1",
+            "name": "rel_has_floors",
+            "displayName": "Has floors",
+            "target": "dtmi:example:building:floor;1"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:example:vendor;1",
+    "@type": "Interface",
+    "displayName": "Vendor",
+    "contents": [
+        {
+            "@type": "Property",
+            "name": "id",
+            "schema": "string",
+            "description": "Vendor ID",
+            "writable": true
+        },
+        {
+            "@type": "Property",
+            "name": "VendorName",
+            "schema": "string",
+            "description": "Vendor name",
+            "writable": true
+        },
+        {
+            "@type": "Relationship",
+            "@id": "dtmi:example:vendor:rel_owns_devices;1",
+            "name": "rel_owns_devices",
+            "displayName": "Owns devices",
+            "target": "dtmi:example:device;1"
+        }
+    ]
+}

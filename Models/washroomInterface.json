@@ -1,0 +1,29 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:example:building:floor:washroom;1",
+    "@type": "Interface",
+    "displayName": "Washroom",
+    "contents": [
+        {
+            "@type": "Property",
+            "name": "id",
+            "schema": "string",
+            "description": "Washroom ID",
+            "writable": true
+        },
+        {
+            "@type": "Property",
+            "name": "WashroomNumber",
+            "schema": "string",
+            "description": "Washroom number",
+            "writable": true
+        },
+        {
+            "@type": "Relationship",
+            "@id": "dtmi:example:building:floor:washroom:rel_has_devices;1",
+            "name": "rel_has_devices",
+            "displayName": "Has devices",
+            "target": "dtmi:example:device;1"
+        }
+    ]
+}
