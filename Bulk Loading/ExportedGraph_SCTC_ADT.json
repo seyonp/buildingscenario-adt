@@ -1,0 +1,560 @@
+{
+    "digitalTwinsFileInfo": {
+        "fileVersion": "1.0.0"
+    },
+    "digitalTwinsGraph": {
+        "digitalTwins": [
+            {
+                "$dtId": "SCTC",
+                "$etag": "W/\"db5e7b43-888d-41f0-a5b1-7bf5b2fbabed\"",
+                "id": "01",
+                "$metadata": {
+                    "$model": "dtmi:example:building;1"
+                }
+            },
+            {
+                "$dtId": "6F",
+                "$etag": "W/\"17a334c8-7f69-4567-a6cd-66de6c22ffde\"",
+                "FloorNumber": 6,
+                "$metadata": {
+                    "$model": "dtmi:example:building:floor;1"
+                }
+            },
+            {
+                "$dtId": "7F",
+                "$etag": "W/\"1fa45a0c-5578-4b2e-8475-d7a288973cc3\"",
+                "FloorNumber": 7,
+                "$metadata": {
+                    "$model": "dtmi:example:building:floor;1"
+                }
+            },
+            {
+                "$dtId": "Room1",
+                "$etag": "W/\"4e2a9b1b-9763-4534-87a9-dc05bad900f4\"",
+                "id": "0001",
+                "MeetingRoomNumber": "0001",
+                "$metadata": {
+                    "$model": "dtmi:example:building:floor:meetingroom;1"
+                }
+            },
+            {
+                "$dtId": "Desk1",
+                "$etag": "W/\"99bd1814-24be-4115-b597-3961e7c9679d\"",
+                "DeskNumber": "001",
+                "id": "001",
+                "$metadata": {
+                    "$model": "dtmi:example:building:floor:desk;1"
+                }
+            },
+            {
+                "$dtId": "WC1",
+                "$etag": "W/\"c57f535b-bb3e-4b16-a4f9-0619634e894a\"",
+                "id": "00001",
+                "WashroomNumber": "00001",
+                "$metadata": {
+                    "$model": "dtmi:example:building:floor:washroom;1"
+                }
+            },
+            {
+                "$dtId": "Room2",
+                "$etag": "W/\"9a74a4a1-d93f-41d6-a35b-3ed794eb5f92\"",
+                "id": "0002",
+                "MeetingRoomNumber": "0002",
+                "$metadata": {
+                    "$model": "dtmi:example:building:floor:meetingroom;1"
+                }
+            },
+            {
+                "$dtId": "Desk2",
+                "$etag": "W/\"41892664-11a4-4d46-a6d0-11d9c94ec904\"",
+                "DeskNumber": "002",
+                "id": "002",
+                "$metadata": {
+                    "$model": "dtmi:example:building:floor:desk;1"
+                }
+            },
+            {
+                "$dtId": "WC2",
+                "$etag": "W/\"31217c21-93f2-4f9c-9f7e-dbea8e121da5\"",
+                "id": "00002",
+                "WashroomNumber": "00002",
+                "$metadata": {
+                    "$model": "dtmi:example:building:floor:washroom;1"
+                }
+            },
+            {
+                "$dtId": "A_01",
+                "$etag": "W/\"9ee879cc-4cf3-4433-be3a-c30352bf012d\"",
+                "deviceid": "A_01",
+                "humidity": 1.01,
+                "temperature": 1.01,
+                "$metadata": {
+                    "$model": "dtmi:example:device;1"
+                }
+            },
+            {
+                "$dtId": "B_01",
+                "$etag": "W/\"a941667f-d67f-4ac5-82a9-06dad157c0c4\"",
+                "deviceid": "B_01",
+                "humidity": 1.01,
+                "temperature": 1.01,
+                "$metadata": {
+                    "$model": "dtmi:example:device;1"
+                }
+            },
+            {
+                "$dtId": "A_02",
+                "$etag": "W/\"9e2fb7c4-2f87-4373-9efd-d463babb7f76\"",
+                "deviceid": "A_02",
+                "humidity": 1.01,
+                "temperature": 90.34,
+                "$metadata": {
+                    "$model": "dtmi:example:device;1"
+                }
+            },
+            {
+                "$dtId": "B_02",
+                "$etag": "W/\"12978f24-ad7e-4e77-8687-db6ad875c15d\"",
+                "deviceid": "B_02",
+                "humidity": 30.3,
+                "temperature": 25.5,
+                "$metadata": {
+                    "$model": "dtmi:example:device;1"
+                }
+            },
+            {
+                "$dtId": "A_03",
+                "$etag": "W/\"972caed1-8c49-486d-ab3b-8642154fff48\"",
+                "deviceid": "A_03",
+                "humidity": 1.01,
+                "temperature": 1.01,
+                "$metadata": {
+                    "$model": "dtmi:example:device;1"
+                }
+            },
+            {
+                "$dtId": "B_03",
+                "$etag": "W/\"883bc876-4ddc-481d-aa5c-e9fccf872822\"",
+                "deviceid": "B_03",
+                "humidity": 1.01,
+                "temperature": 1.01,
+                "$metadata": {
+                    "$model": "dtmi:example:device;1"
+                }
+            },
+            {
+                "$dtId": "A_04",
+                "$etag": "W/\"a9bb3dca-8938-4e5d-8256-3db12fe6b836\"",
+                "deviceid": "A_04",
+                "humidity": 1.01,
+                "temperature": 20.45,
+                "$metadata": {
+                    "$model": "dtmi:example:device;1"
+                }
+            },
+            {
+                "$dtId": "B_04",
+                "$etag": "W/\"61d849b0-fbc4-4751-932d-7a9dc024bc64\"",
+                "deviceid": "B_04",
+                "humidity": 1.01,
+                "temperature": 1.01,
+                "$metadata": {
+                    "$model": "dtmi:example:device;1"
+                }
+            },
+            {
+                "$dtId": "A_Vendor",
+                "$etag": "W/\"7271c309-9cbe-40c9-90d8-fbc223156c59\"",
+                "id": "101",
+                "VendorName": "A",
+                "$metadata": {
+                    "$model": "dtmi:example:vendor;1"
+                }
+            },
+            {
+                "$dtId": "B_Vendor",
+                "$etag": "W/\"b3471094-c39e-44f0-91d4-ee6bae806a58\"",
+                "id": "202",
+                "VendorName": "B",
+                "$metadata": {
+                    "$model": "dtmi:example:vendor;1"
+                }
+            }
+        ],
+        "relationships": [
+            {
+                "$relationshipId": "aa7ef295-323a-49c6-a747-f5bcaa853ff1",
+                "$sourceId": "6F",
+                "$targetId": "Room1",
+                "$relationshipName": "rel_has_meetingrooms",
+                "$etag": "W/\"3dfc6499-4464-4823-a962-313319c95c5e\""
+            },
+            {
+                "$relationshipId": "1300ef8e-919b-4d31-9b0d-b1054999d57e",
+                "$sourceId": "6F",
+                "$targetId": "Desk1",
+                "$relationshipName": "rel_has_desks",
+                "$etag": "W/\"c56ca1e0-d42d-417b-aa59-6b87b7b4908f\""
+            },
+            {
+                "$relationshipId": "15d271ef-4cb4-47e2-9704-9e5c24cc5c35",
+                "$sourceId": "6F",
+                "$targetId": "WC1",
+                "$relationshipName": "rel_has_washrooms",
+                "$etag": "W/\"647ffb43-1c86-4414-aaa1-c05e1ff79547\""
+            },
+            {
+                "$relationshipId": "2d4248a5-f742-44c5-8d1b-372c3638168e",
+                "$sourceId": "7F",
+                "$targetId": "Room2",
+                "$relationshipName": "rel_has_meetingrooms",
+                "$etag": "W/\"7e4c1e1a-8090-4d61-9337-00a55376597f\""
+            },
+            {
+                "$relationshipId": "eb6391ef-aa0b-44d8-b437-dbce871d7251",
+                "$sourceId": "7F",
+                "$targetId": "Desk2",
+                "$relationshipName": "rel_has_desks",
+                "$etag": "W/\"e9239c70-b730-44d6-818d-1efb8fd4e53c\""
+            },
+            {
+                "$relationshipId": "579d79c2-9ba9-491a-be95-c9c3187bde35",
+                "$sourceId": "7F",
+                "$targetId": "WC2",
+                "$relationshipName": "rel_has_washrooms",
+                "$etag": "W/\"3053a632-862e-4bda-86c0-4cdc8a9c7ed2\""
+            },
+            {
+                "$relationshipId": "a8a77557-962b-4d2e-a052-8fb5a1d8097f",
+                "$sourceId": "SCTC",
+                "$targetId": "6F",
+                "$relationshipName": "rel_has_floors",
+                "$etag": "W/\"17622405-99dc-4f9b-b4c6-d2f09413eee4\""
+            },
+            {
+                "$relationshipId": "670c561c-75b4-4f9f-84bc-354935129dce",
+                "$sourceId": "SCTC",
+                "$targetId": "7F",
+                "$relationshipName": "rel_has_floors",
+                "$etag": "W/\"d5cddac9-9e2b-4c58-905e-9b9ff02c08c7\""
+            },
+            {
+                "$relationshipId": "a65c40f8-61f4-47f1-a041-d3362526be2e",
+                "$sourceId": "Room1",
+                "$targetId": "A_01",
+                "$relationshipName": "rel_has_devices",
+                "$etag": "W/\"f4c17119-bd97-47a3-af60-82cdf2b79ea5\""
+            },
+            {
+                "$relationshipId": "0308ae7c-d477-44d4-b0c6-79e06cd72240",
+                "$sourceId": "Room1",
+                "$targetId": "B_01",
+                "$relationshipName": "rel_has_devices",
+                "$etag": "W/\"8444766b-04aa-4934-b708-3d19925a4749\""
+            },
+            {
+                "$relationshipId": "6c85da6d-c223-48e9-a611-38456033d3fd",
+                "$sourceId": "Desk1",
+                "$targetId": "A_02",
+                "$relationshipName": "rel_has_devices",
+                "$etag": "W/\"be34d64a-6461-4092-83f7-a94df27239cd\""
+            },
+            {
+                "$relationshipId": "94faf2ff-c062-47ef-931e-5da7f9bfba10",
+                "$sourceId": "WC1",
+                "$targetId": "B_02",
+                "$relationshipName": "rel_has_devices",
+                "$etag": "W/\"3ce7dce5-cf41-4628-8a0f-0b271d8b49f3\""
+            },
+            {
+                "$relationshipId": "c42862a6-e4dd-4af4-b83c-e6bfb4426637",
+                "$sourceId": "Room2",
+                "$targetId": "B_04",
+                "$relationshipName": "rel_has_devices",
+                "$etag": "W/\"503a22df-934f-421b-8144-d2af2e04fbac\""
+            },
+            {
+                "$relationshipId": "c0b70f6b-bf4d-44d2-93de-052f7a7f587c",
+                "$sourceId": "WC2",
+                "$targetId": "A_03",
+                "$relationshipName": "rel_has_devices",
+                "$etag": "W/\"3fea047d-a743-40d6-a118-0bfdc1fbfa66\""
+            },
+            {
+                "$relationshipId": "c04fe546-03fd-4467-8e2c-d5d2fe088f7e",
+                "$sourceId": "Desk2",
+                "$targetId": "B_03",
+                "$relationshipName": "rel_has_devices",
+                "$etag": "W/\"fb49963f-edb4-4225-b3b7-3342859cfc26\""
+            },
+            {
+                "$relationshipId": "95d4c8a2-d592-417b-9dd0-d48dd5a6a8c5",
+                "$sourceId": "Desk2",
+                "$targetId": "A_04",
+                "$relationshipName": "rel_has_devices",
+                "$etag": "W/\"5e89a80e-7886-4280-aaf3-43426b3b0ff4\""
+            },
+            {
+                "$relationshipId": "f04777b3-073b-4a8e-8f09-0cc841e9eb52",
+                "$sourceId": "A_Vendor",
+                "$targetId": "A_04",
+                "$relationshipName": "rel_owns_devices",
+                "$etag": "W/\"074d55e0-e189-457e-ac13-084606387cba\""
+            },
+            {
+                "$relationshipId": "5c455e6a-7cf7-4044-8495-5b0c99f70eba",
+                "$sourceId": "A_Vendor",
+                "$targetId": "A_03",
+                "$relationshipName": "rel_owns_devices",
+                "$etag": "W/\"9bb84fee-3c94-492c-9412-3f24b2fc7243\""
+            },
+            {
+                "$relationshipId": "dcf7e0f7-d6a4-4de9-b13b-3b2894833b18",
+                "$sourceId": "A_Vendor",
+                "$targetId": "A_01",
+                "$relationshipName": "rel_owns_devices",
+                "$etag": "W/\"14a71a9b-092c-441b-b377-c4776ff59fb8\""
+            },
+            {
+                "$relationshipId": "e4589555-102d-4ae8-bff4-22f8155c26e0",
+                "$sourceId": "A_Vendor",
+                "$targetId": "A_02",
+                "$relationshipName": "rel_owns_devices",
+                "$etag": "W/\"53e07aff-f3ff-4ff5-bd47-95c827931684\""
+            },
+            {
+                "$relationshipId": "0b9d8b84-4d89-4afb-bb0d-5303079af2f6",
+                "$sourceId": "B_Vendor",
+                "$targetId": "B_02",
+                "$relationshipName": "rel_owns_devices",
+                "$etag": "W/\"e808cff3-68ec-4806-8bce-34194b09abfa\""
+            },
+            {
+                "$relationshipId": "90215b96-5727-4973-ab1e-737349ef4e00",
+                "$sourceId": "B_Vendor",
+                "$targetId": "B_01",
+                "$relationshipName": "rel_owns_devices",
+                "$etag": "W/\"3b353770-2e06-4438-8b86-e8642534be95\""
+            },
+            {
+                "$relationshipId": "1ffd6e34-12e0-4066-875a-54a681d790c0",
+                "$sourceId": "B_Vendor",
+                "$targetId": "B_04",
+                "$relationshipName": "rel_owns_devices",
+                "$etag": "W/\"791c3925-aaaa-497a-acdd-74beab66bcd2\""
+            },
+            {
+                "$relationshipId": "2b187d66-631e-4ea1-a323-49d60eea74c8",
+                "$sourceId": "B_Vendor",
+                "$targetId": "B_03",
+                "$relationshipName": "rel_owns_devices",
+                "$etag": "W/\"4c42e419-7115-4452-b1ae-a268023136e3\""
+            }
+        ]
+    },
+    "digitalTwinsModels": [
+        {
+            "@context": "dtmi:dtdl:context;2",
+            "@id": "dtmi:example:building:floor;1",
+            "@type": "Interface",
+            "displayName": "Floor",
+            "contents": [
+                {
+                    "@type": "Property",
+                    "name": "FloorNumber",
+                    "schema": "integer",
+                    "description": "Floor number",
+                    "writable": true
+                },
+                {
+                    "@type": "Relationship",
+                    "@id": "dtmi:example:building:floor:rel_has_meetingrooms;1",
+                    "name": "rel_has_meetingrooms",
+                    "displayName": "Has meeting rooms",
+                    "target": "dtmi:example:building:floor:meetingroom;1"
+                },
+                {
+                    "@type": "Relationship",
+                    "@id": "dtmi:example:building:floor:rel_has_desks;1",
+                    "name": "rel_has_desks",
+                    "displayName": "Has desks",
+                    "target": "dtmi:example:building:floor:desk;1"
+                },
+                {
+                    "@type": "Relationship",
+                    "@id": "dtmi:example:building:floor:rel_has_washrooms;1",
+                    "name": "rel_has_washrooms",
+                    "displayName": "Has washrooms",
+                    "target": "dtmi:example:building:floor:washroom;1"
+                }
+            ]
+        },
+        {
+            "@context": "dtmi:dtdl:context;2",
+            "@id": "dtmi:example:building;1",
+            "@type": "Interface",
+            "displayName": "Building",
+            "contents": [
+                {
+                    "@type": "Property",
+                    "name": "id",
+                    "schema": "string",
+                    "description": "Building ID",
+                    "writable": true
+                },
+                {
+                    "@type": "Relationship",
+                    "@id": "dtmi:example:building:rel_has_floors;1",
+                    "name": "rel_has_floors",
+                    "displayName": "Has floors",
+                    "target": "dtmi:example:building:floor;1"
+                }
+            ]
+        },
+        {
+            "@context": "dtmi:dtdl:context;2",
+            "@id": "dtmi:example:device;1",
+            "@type": "Interface",
+            "displayName": "Device",
+            "contents": [
+                {
+                    "@type": "Property",
+                    "name": "deviceid",
+                    "schema": "string",
+                    "description": "Device ID",
+                    "writable": true
+                },
+                {
+                    "@type": "Property",
+                    "name": "temperature",
+                    "schema": "double",
+                    "description": "Current measured temperature",
+                    "writable": true
+                },
+                {
+                    "@type": "Property",
+                    "name": "humidity",
+                    "schema": "double",
+                    "description": "Current measured humidity",
+                    "writable": true
+                }
+            ]
+        },
+        {
+            "@context": "dtmi:dtdl:context;2",
+            "@id": "dtmi:example:building:floor:desk;1",
+            "@type": "Interface",
+            "displayName": "Desk",
+            "contents": [
+                {
+                    "@type": "Property",
+                    "name": "id",
+                    "schema": "string",
+                    "description": "Desk ID",
+                    "writable": true
+                },
+                {
+                    "@type": "Property",
+                    "name": "DeskNumber",
+                    "schema": "string",
+                    "description": "Desk number",
+                    "writable": true
+                },
+                {
+                    "@type": "Relationship",
+                    "@id": "dtmi:example:building:floor:desk:rel_has_devices;1",
+                    "name": "rel_has_devices",
+                    "displayName": "Has devices",
+                    "target": "dtmi:example:device;1"
+                }
+            ]
+        },
+        {
+            "@context": "dtmi:dtdl:context;2",
+            "@id": "dtmi:example:building:floor:meetingroom;1",
+            "@type": "Interface",
+            "displayName": "MeetingRoom",
+            "contents": [
+                {
+                    "@type": "Property",
+                    "name": "id",
+                    "schema": "string",
+                    "description": "Meeting room ID",
+                    "writable": true
+                },
+                {
+                    "@type": "Property",
+                    "name": "MeetingRoomNumber",
+                    "schema": "string",
+                    "description": "Meeting room number",
+                    "writable": true
+                },
+                {
+                    "@type": "Relationship",
+                    "@id": "dtmi:example:building:floor:meetingroom:rel_has_devices;1",
+                    "name": "rel_has_devices",
+                    "displayName": "Has devices",
+                    "target": "dtmi:example:device;1"
+                }
+            ]
+        },
+        {
+            "@context": "dtmi:dtdl:context;2",
+            "@id": "dtmi:example:building:floor:washroom;1",
+            "@type": "Interface",
+            "displayName": "Washroom",
+            "contents": [
+                {
+                    "@type": "Property",
+                    "name": "id",
+                    "schema": "string",
+                    "description": "Washroom ID",
+                    "writable": true
+                },
+                {
+                    "@type": "Property",
+                    "name": "WashroomNumber",
+                    "schema": "string",
+                    "description": "Washroom number",
+                    "writable": true
+                },
+                {
+                    "@type": "Relationship",
+                    "@id": "dtmi:example:building:floor:washroom:rel_has_devices;1",
+                    "name": "rel_has_devices",
+                    "displayName": "Has devices",
+                    "target": "dtmi:example:device;1"
+                }
+            ]
+        },
+        {
+            "@context": "dtmi:dtdl:context;2",
+            "@id": "dtmi:example:vendor;1",
+            "@type": "Interface",
+            "displayName": "Vendor",
+            "contents": [
+                {
+                    "@type": "Property",
+                    "name": "id",
+                    "schema": "string",
+                    "description": "Vendor ID",
+                    "writable": true
+                },
+                {
+                    "@type": "Property",
+                    "name": "VendorName",
+                    "schema": "string",
+                    "description": "Vendor name",
+                    "writable": true
+                },
+                {
+                    "@type": "Relationship",
+                    "@id": "dtmi:example:vendor:rel_owns_devices;1",
+                    "name": "rel_owns_devices",
+                    "displayName": "Owns devices",
+                    "target": "dtmi:example:device;1"
+                }
+            ]
+        }
+    ]
+}
