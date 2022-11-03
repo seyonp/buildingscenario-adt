@@ -6,9 +6,9 @@
     "extends": "dtmi:hkjc:capability:sensor;1",
     "contents": [
         {
-            "@type": "Property",
+            "@type": ["Property", "RelativeHumidity"],
             "name": "relativeHumidity",
-            "description": "percent",
+            "unit": "percent",
             "schema": "double",
             "writable": true
         }
