@@ -6,16 +6,16 @@
     "extends": "dtmi:hkjc:capability:sensor;1",
     "contents": [
         {
-            "@type": ["Property", "Power"],
+            "@type": "Property",
             "name": "activePower",
-            "unit": "kilowatt",
+            "description": "kilowatt",
             "schema": "double",
             "writable": true
         },
         {
-            "@type": ["Property", "Energy"],
+            "@type": "Property",
             "name": "consumedEnergy",
-            "unit": "kilowattHour",
+            "description": "kilowattHour",
             "schema": "double",
             "writable": true
         }

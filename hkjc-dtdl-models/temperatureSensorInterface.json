@@ -6,9 +6,9 @@
     "extends": "dtmi:hkjc:capability:sensor;1",
     "contents": [
         {
-            "@type": ["Property", "Temperature"],
+            "@type": "Property",
             "name": "temperature",
-            "unit": "degreeCelsius",
+            "description": "degreeCelsius",
             "schema": "double",
             "writable": true
         }
