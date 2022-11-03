@@ -1,8 +1,8 @@
 {
     "@context": "dtmi:dtdl:context;2",
-    "@id": "dtmi:hkjc:capability:sensor:temperaturesensor;1",
+    "@id": "dtmi:hkjc:capability:sensor:roomoccupancysensor;1",
     "@type": "Interface",
-    "displayName": "Temperature Sensor",
+    "displayName": "Room Occupancy Sensor",
     "extends": "dtmi:hkjc:capability:sensor;1",
     "contents": [
         {

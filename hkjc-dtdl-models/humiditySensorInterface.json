@@ -8,6 +8,7 @@
         {
             "@type": ["Telemetry", "RelativeHumidity"],
             "name": "relativeHumidity",
+            "unit": "percent",
             "schema": "double"
         }
     ]

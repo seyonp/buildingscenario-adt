@@ -25,7 +25,7 @@
         },
         {
             "@type": "Relationship",
-            "@id": "dtmi:hkjc:isPartOf;1",
+            "@id": "dtmi:hkjc:space:isPartOf;1",
             "name": "isPartOf",
             "displayName": "isPartOf",
             "description": "Indicates a super-entity of the same base type",
@@ -33,10 +33,10 @@
         },
         {
             "@type": "Relationship",
-            "@id": "dtmi:hkjc:hasCapability;1",
+            "@id": "dtmi:hkjc:space:hasCapability;1",
             "name": "hasCapability",
             "displayName": "hasCapability",
-            "description": "Indicates capability about the Space or Asset",
+            "description": "Indicates capability about the Space",
             "target": "dtmi:hkjc:capability;1"
         }
     ]
