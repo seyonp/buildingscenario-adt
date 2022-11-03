@@ -1,0 +1,15 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:hkjc:capability:sensor:deskpresencesensor;1",
+    "@type": "Interface",
+    "displayName": "Desk Presence Sensor",
+    "extends": "dtmi:hkjc:capability:sensor;1",
+    "contents": [
+        {
+            "@type": "Property",
+            "name": "isPresent",
+            "schema": "boolean",
+            "writable": true
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:hkjc:asset;1",
+    "@type": "Interface",
+    "displayName": "Asset",
+    "contents": [
+        {
+            "@type": "Property",
+            "name": "name",
+            "schema": "string",
+            "writable": true
+        },
+		{
+            "@type": "Property",
+            "name": "displayName",
+            "schema": "string",
+            "writable": true
+        },
+        {
+            "@type": "Property",
+            "name": "serialNumber",
+            "schema": "string",
+            "writable": true
+        },
+        {
+            "@type": "Property",
+            "name": "physicalTagNumber",
+            "schema": "string",
+            "writable": true
+        },
+        {
+            "@type": "Property",
+            "name": "modelNumber",
+            "schema": "string",
+            "writable": true
+        },
+        {
+            "@type": "Property",
+            "name": "MACAddress",
+            "schema": "string",
+            "writable": true
+        },
+        {
+            "@type": "Property",
+            "name": "IPAddress",
+            "schema": "string",
+            "writable": true
+        },
+        {
+            "@type": "Relationship",
+            "@id": "dtmi:hkjc:isPartOf;1",
+            "name": "isPartOf",
+            "displayName": "isPartOf",
+            "description": "Indicates a super-entity of the same base type",
+            "target": "dtmi:hkjc:asset;1"
+        },
+        {
+            "@type": "Relationship",
+            "@id": "dtmi:hkjc:hasCapability;1",
+            "name": "hasCapability",
+            "displayName": "hasCapability",
+            "description": "Indicates capability about the Space or Asset",
+            "target": "dtmi:hkjc:capability;1"
+        },
+        {
+            "@type": "Relationship",
+            "@id": "dtmi:hkjc:locatedIn;1",
+            "name": "locatedIn",
+            "displayName": "locatedIn",
+            "target": "dtmi:hkjc:space;1"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:hkjc:capability:sensor:humiditysensor;1",
+    "@type": "Interface",
+    "displayName": "Humidity Sensor",
+    "extends": "dtmi:hkjc:capability:sensor;1",
+    "contents": [
+        {
+            "@type": ["Telemetry", "RelativeHumidity"],
+            "name": "relativeHumidity",
+            "schema": "double"
+        }
+    ]
+}

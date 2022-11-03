@@ -1,0 +1,15 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:hkjc:capability:sensor:temperaturesensor;1",
+    "@type": "Interface",
+    "displayName": "Temperature Sensor",
+    "extends": "dtmi:hkjc:capability:sensor;1",
+    "contents": [
+        {
+            "@type": "Property",
+            "name": "peopleCount",
+            "schema": "double",
+            "writable": true
+        }
+    ]
+}

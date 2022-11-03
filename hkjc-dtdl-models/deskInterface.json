@@ -1,0 +1,9 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:hkjc:space:desk;1",
+    "@type": "Interface",
+    "displayName": "Desk",
+    "extends": "dtmi:hkjc:space;1",
+    "contents": [
+    ]
+}

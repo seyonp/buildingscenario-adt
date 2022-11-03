@@ -1,0 +1,43 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:hkjc:space;1",
+    "@type": "Interface",
+    "displayName": "Space",
+    "contents": [
+        {
+            "@type": "Property",
+            "name": "name",
+            "schema": "string",
+            "writable": true
+        },
+		{
+            "@type": "Property",
+            "name": "displayName",
+            "schema": "string",
+            "writable": true
+        },
+        {
+            "@type": "Property",
+            "name": "personCapacity",
+            "schema": "integer",
+            "description": "Number of people that can fit in a Space",
+            "writable": true
+        },
+        {
+            "@type": "Relationship",
+            "@id": "dtmi:hkjc:isPartOf;1",
+            "name": "isPartOf",
+            "displayName": "isPartOf",
+            "description": "Indicates a super-entity of the same base type",
+            "target": "dtmi:hkjc:space;1"
+        },
+        {
+            "@type": "Relationship",
+            "@id": "dtmi:hkjc:hasCapability;1",
+            "name": "hasCapability",
+            "displayName": "hasCapability",
+            "description": "Indicates capability about the Space or Asset",
+            "target": "dtmi:hkjc:capability;1"
+        }
+    ]
+}

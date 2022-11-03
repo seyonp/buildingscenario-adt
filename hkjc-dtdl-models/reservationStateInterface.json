@@ -1,0 +1,30 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:hkjc:capability:state:reservationstate;1",
+    "@type": "Interface",
+    "displayName": "Reservation State",
+    "extends": "dtmi:hkjc:capability:state;1",
+    "contents": [
+        {
+            "@type": "Property",
+            "name": "isReserved",
+            "schema": "boolean",
+            "description": "",
+            "writable": true
+        },
+        {
+            "@type": "Property",
+            "name": "isOccupied",
+            "schema": "boolean",
+            "description": "",
+            "writable": true
+        },
+        {
+            "@type": "Property",
+            "name": "timeToFreeWithOccupied",
+            "schema": "dateTime",
+            "description": "",
+            "writable": true
+        }
+    ]
+}

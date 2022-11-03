@@ -1,0 +1,9 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:hkjc:capability:state;1",
+    "@type": "Interface",
+    "displayName": "State",
+    "extends": "dtmi:hkjc:capability;1",
+    "contents": [
+    ]
+}

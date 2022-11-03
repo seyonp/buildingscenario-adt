@@ -1,0 +1,9 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:hkjc:asset:equipment:electricitymeter;1",
+    "@type": "Interface",
+    "displayName": "Electricity Meter",
+    "extends": "dtmi:hkjc:asset:equipment;1",
+    "contents": [
+    ]
+}

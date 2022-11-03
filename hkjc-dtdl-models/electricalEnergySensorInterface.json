@@ -1,0 +1,21 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:hkjc:capability:sensor:electricalenergysensor;1",
+    "@type": "Interface",
+    "displayName": "Electrical Energy Sensor",
+    "extends": "dtmi:hkjc:capability:sensor;1",
+    "contents": [
+        {
+            "@type": ["Telemetry", "Power"],
+            "name": "activePower",
+            "unit": "kilowatt",
+            "schema": "double"      
+        },
+        {
+            "@type": ["Telemetry", "Energy"],
+            "name": "consumedEnergy",
+            "unit": "kilowattHour",
+            "schema": "double"      
+        }
+    ]
+}

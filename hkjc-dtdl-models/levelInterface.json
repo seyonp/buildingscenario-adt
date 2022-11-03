@@ -1,0 +1,16 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:hkjc:space:level;1",
+    "@type": "Interface",
+    "displayName": "Level",
+    "extends": "dtmi:hkjc:space;1",
+    "contents": [
+        {
+            "@type": "Property",
+            "name": "levelNumber",
+            "schema": "integer",
+            "description": "A number indicating the ordinal number of a level within the building. Note that the implementation of this numbering scheme and its starting point is implementation-specific; e.g., the fifth floor below ground may be 0 in some systems, and -5 in others.",
+            "writable": true
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:hkjc:space:building;1",
+    "@type": "Interface",
+    "displayName": "Building",
+    "extends": "dtmi:hkjc:space;1",
+    "contents": [
+        {
+            "@type": "Property",
+            "name": "fullName",
+            "schema": "string",
+            "description": "Full name of building",
+            "writable": true
+        },
+		{
+            "@type": "Property",
+            "name": "address",
+            "schema": "string",
+            "description": "Address of building",
+            "writable": true
+        }
+    ]
+}

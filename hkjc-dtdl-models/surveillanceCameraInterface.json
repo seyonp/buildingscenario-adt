@@ -1,0 +1,9 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:hkjc:asset:equipment:surveillancecamera;1",
+    "@type": "Interface",
+    "displayName": "Surveillance Camera",
+    "extends": "dtmi:hkjc:asset:equipment;1",
+    "contents": [
+    ]
+}

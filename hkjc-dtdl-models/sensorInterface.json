@@ -1,0 +1,9 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:hkjc:capability:sensor;1",
+    "@type": "Interface",
+    "displayName": "Sensor",
+    "extends": "dtmi:hkjc:capability;1",
+    "contents": [
+    ]
+}

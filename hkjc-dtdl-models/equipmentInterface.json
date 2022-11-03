@@ -1,0 +1,9 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:hkjc:asset:equipment;1",
+    "@type": "Interface",
+    "displayName": "Equipment",
+    "extends": "dtmi:hkjc:asset;1",
+    "contents": [
+    ]
+}
